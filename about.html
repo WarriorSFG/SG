@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+    <title>SG Portfolio</title>
+
+    <link rel="icon" type="image/png" href="/images/Logo.png">
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+
+</head>
+
+<body>
+    <div id="glow-grid"></div>
+
+    <!-- header Design -->
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo" style="--i: 1;">S.<span>G.</span>
+            </a>
+
+            <ul>
+                <li style="--i: 2;"><a href="../index.html">Home</a></li>
+                <li style="--i: 4;"><a href="#">Skills</a></li>
+                <li style="--i: 5;"><a href="#">Services</a></li>
+                <li style="--i: 6;"><a href="../projects.html">Projects</a></li>
+                <li style="--i: 7;"><a href="../about.html" class="active">About</a></li>
+                <li style="--i: 8;"><a href="../contact.html">Contact</a></li>
+            </ul>
+
+
+            <a href="#" class="cvbtn" style="--i: 8;">Download CV<i class="fa-solid fa-download"></i></a>
+        </nav>
+    </header>
+
+    <!-- hero section -->
+    <section id="About" class="hero-container" style="background-color: #006da011;">
+       
+        <div class="hero-content hero-content-animation">
+           
+            <h1 style="--i: 2;">About Me</h1>
+            <h2 style="--i: 3;">I'm a <span class="typing-text"></span></h2>
+            <p style="--i: 4;">
+                This section is dedicated to show who I am and what I like to do when I'm not on my laptop.
+            </p>
+
+            <div class="social-icons" style="--i: 5;">
+                <a href="https://github.com/WarriorSFG" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                <a href="#"><i class="fa-solid fa-globe" target="_blank"></i></a>
+                <a href="https://www.youtube.com/@warriorsfg" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/samarthgupta9999/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="hero-btn" style="--i: 6;">
+                <a href="/contact.html" class="btn">Contact Me</a>
+                
+            </div>
+        </div>
+        <div class="hero-image hero-image-animation">
+            <img src="./images/ProfilePhoto.png" alt="image">
+        </div>
+    </section>
+    
+
+
+</body>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+
+<style>
+    .about {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: all 0.6s ease-in-out;
+    }
+
+    .about.fade-in {
+        opacity: 1;
+        transform: translateY(0);
+    }
+</style>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap Icons for the arrow -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
