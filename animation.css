@@ -384,7 +384,7 @@ p {
         linear-gradient(0deg, rgba(255,255,255,0.05) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
     background-size: 40px 40px;
-    pointer-events: none;
+    /*pointer-events: none;*/
 }
 
 body {
@@ -396,10 +396,7 @@ body {
     position: absolute;
     width: 200px;
     height: 200px;
-    top: var(--mouse-y, 50%);
-    left: var(--mouse-x, 50%);
     transform: translate(-50%, -50%);
-    background: radial-gradient(circle, rgba(0, 221, 255, 0.2) 0%, transparent 80%);
     pointer-events: none;
     transition: top 0.1s, left 0.1s;
     border-radius: 50%;
